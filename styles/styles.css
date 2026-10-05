@@ -1,0 +1,50 @@
+img {
+    width: 500px;
+}
+@font-face {
+  font-family: "SpeedyRegular";
+  src: url("/fonts/speedy-font/SpeedyRegular-7BLoE.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avengeance";
+  src: url("/fonts/avengeance-font/Avengeance-E1zj.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+    background-color: lightblue;
+    text-align: center;
+    margin: 0;
+    font-family: "Avengeance", "SpeedyRegular", sans-serif;
+}
+#content {
+    max-width: 1600px;
+    padding: 70px;
+}
+nav, footer {
+    background-color: aliceblue;
+    padding: 25px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 20%;
+}
+nav a:hover {
+    text-decoration: none;
+    color: blue;
+    border: 2px solid blue;
+}
+p {
+    font-size: 1.5em;
+}
+#second {
+    font-size: 2em;
+}
+
+/* This is a comment in CSS */
