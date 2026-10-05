@@ -91,4 +91,5 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+    color: black;
 }
