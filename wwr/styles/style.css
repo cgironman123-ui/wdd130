@@ -8,11 +8,17 @@
   font-weight: normal;
   font-style: normal;
 }
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+  font-family: "Pirates Bay";
+  src: url("/fonts/Piratesbay-d4YK.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -23,12 +29,18 @@ nav a {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
 body {
     background-color: #C0D6DF;
-    font-family: "IM Fell French Canon", Helvetica, sans-serif;
+    font-family: "Pirates Bay", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #4F6D7A
@@ -39,8 +51,12 @@ nav a:hover {
 }
 .book, .join {
     background-color: #4F6D7A;
-    color: #166088;
+    color: #C0D6DF;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: white;
@@ -51,10 +67,14 @@ nav a:hover {
 }
 .msg {
     background-color: #4F6D7A;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #4F6D7A;
     color: #C0D6DF;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #C0D6DF;
@@ -70,6 +90,8 @@ footer a:hover {
 .home-title {
     color: #166088;
     font-family: "Pieces of eight";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #166088;
@@ -80,18 +102,22 @@ h4 {
 }
 .msg p {
     color: #C0D6DF;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
 }
 .card-img {
     width: 400px;
+    border: 10px solid black;
 }
 .mountains {
     width: 100%;
@@ -102,4 +128,16 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
     color: black;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
 }
