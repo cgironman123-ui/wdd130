@@ -2,6 +2,13 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+@font-face {
+  font-family: "Pieces of eight";
+  src: url("/fonts/pieces_of_eight/Pieces of Eight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 nav a {
     text-align: center;
     color: white;
@@ -21,6 +28,7 @@ main section {
 }
 body {
     background-color: #C0D6DF;
+    font-family: "IM Fell French Canon", Helvetica, sans-serif;
 }
 header {
     background-color: #4F6D7A
@@ -61,12 +69,14 @@ footer a:hover {
 }
 .home-title {
     color: #166088;
+    font-family: "Pieces of eight";
 }
 h4 {
     color: #166088;
 }
 .msg h2 {
     color: #C0D6DF;
+    font-family: "Pieces of eight";
 }
 .msg p {
     color: #C0D6DF;
