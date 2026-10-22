@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Ravenscroft';
+    src: url(../fonts/Ravenscroft.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Storm Gust';
+    src: url(../fonts/Storm_Gust.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chainsaw';
+    src: url(../fonts/ChainsawCarnage.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+#wrapper {
+    text-align: center;
+    background-color: black;
+    background-image: url(../images/wallpaper.jpg);
+}
+header {
+    background-color: #3C1518;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    color: #A44200;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Storm Gust';
+}
+a:hover {
+    color: #FF9505;
+    background-color: white;
+    text-decoration: none;
+}
+h1 {
+    color: #A44200;
+    font-family: 'Chainsaw', 'Ravenscroft', Arial;
+    font-size: 70px;
+    text-decoration: none;
+}
+img {
+    width: 600px;;
+}
+h2 {
+    color: #A44200;
+    font-family: 'Chainsaw', 'Storm Gust', Arial;
+}
+p {
+    color: white;
+    font-family: 'Ravenscroft';
+    font-size: 30px;
+}
+footer {
+    background-color: #3C1518;
+    color: white;
+    padding: 30px;
+}
