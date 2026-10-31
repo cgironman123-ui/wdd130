@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Avengeance";
+  src: url("/fonts/avengeance-font/Avengeance-E1zj.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.content {
+    text-align: center;
+    background-color: #97fff8;
+}
+.logo {
+    width: 400px;
+}
+.me-img {
+    width: 300px;
+    margin: 30px;
+    box-shadow: 5px 5px 10px black;
+}
+.spiderman-img {
+    width: 300px;
+    margin: 30px;
+    box-shadow: 5px 5px 10px black;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    background-color: black;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+header {
+    background-color: black;
+}
+.aboutme {
+    background-color: #39A0ED;
+    padding: 30px;
+    box-shadow: 5px 5px 10px black;
+    width: 500px;
+    justify-self: center;
+}
+.aboutme h1 {
+    font-family: 'Avengeance';
+    font-size: 40px;
+}
+.aboutme p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
