@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Avengeance";
+  src: url("/fonts/avengeance-font/Avengeance-E1zj.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.content {
+    text-align: center;
+    background-color: #00CFFF;
+}
+.logo {
+    width: 400px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    background-color: black;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+header {
+    background-color: black;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    font-family: 'Avengeance', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.iceNav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.iceNav a {
+    padding: 50px;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    background-image: url(../images/stark-link-background.png);
+    background-size: 100%;
+    background-position: center;
+    text-align: left;
+}
+.iceNav a:hover {
+    background-color: #24454B;
+    box-shadow: 5px 5px 10px black;
+}
+/* .devo {
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid black;
+    grid-column: 1/2;
+    grid-row: 1/2;
+} */
